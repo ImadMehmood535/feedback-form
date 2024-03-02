@@ -179,11 +179,12 @@ const FeedbackRadio = ({ name, label, control, rules, errors }) => (
           {...field}
           classNames={{
             label: "text-black",
+            value: "text-black",
           }}
           orientation="horizontal"
           label={label}
           color="danger"
-        >
+         >
           {[1, 2, 3, 4, 5].map((value) => (
             <Radio
               key={value}

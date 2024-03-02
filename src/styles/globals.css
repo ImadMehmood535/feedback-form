@@ -13,3 +13,8 @@
 
 .myShadow {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+  .text-foreground-400 {
+    --tw-text-opacity: 1;
+    color: black !important;
+}
